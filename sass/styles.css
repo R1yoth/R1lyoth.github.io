@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  border: 0;
+}
+
+.firstpage-main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  min-width: 100%;
+  min-height: 100vh;
+  background-color: #cffafa;
+}
+.firstpage-main__upper-section {
+  background-color: aquamarine;
+  height: 10em;
+  align-self: center;
+}
+.firstpage-main__upper-section__title {
+  text-align: center;
+  font-size: xx-large;
+}
+.firstpage-main__highlights-section {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 1fr;
+  list-style: row;
+}
+
+/*# sourceMappingURL=styles.css.map */
