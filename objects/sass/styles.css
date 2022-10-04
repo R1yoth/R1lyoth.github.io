@@ -63,5 +63,12 @@ body {
   width: 100%;
   height: 100%;
 }
+.firstpage-main__content-highlights__section {
+  padding: 40px;
+}
+.firstpage-main__content-highlights__section__details {
+  font-family: "Roboto", Verdana;
+  color: rgb(147, 8, 8);
+}
 
 /*# sourceMappingURL=styles.css.map */
