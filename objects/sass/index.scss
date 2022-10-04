@@ -79,16 +79,23 @@ body {
 
         &__section {
             padding: 40px;
+            display: grid;
 
             &__details {
                 font-family: 'Roboto', Verdana;
-                color: rgb(147, 8, 8) ;
+                color: rgb(147, 8, 8);
+
                 &__Topic{
-                    
+                    font-size: X-large;
+                    font-weight: 600;
                 }
             }
 
-            
+            &__card {
+                background-image: url(objects\images\Random-image.png) ;
+                background-size: cover;
+                min-height: 10rem;
+            }
         }
     }  
 }

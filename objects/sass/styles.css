@@ -65,10 +65,20 @@ body {
 }
 .firstpage-main__content-highlights__section {
   padding: 40px;
+  display: grid;
 }
 .firstpage-main__content-highlights__section__details {
   font-family: "Roboto", Verdana;
   color: rgb(147, 8, 8);
+}
+.firstpage-main__content-highlights__section__details__Topic {
+  font-size: X-large;
+  font-weight: 600;
+}
+.firstpage-main__content-highlights__section__card {
+  background-image: url(objectsimagesRandom-image.png);
+  background-size: cover;
+  min-height: 10rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
