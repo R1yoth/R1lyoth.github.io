@@ -11,6 +11,24 @@ body {
     //perspective plays important part on way it is shown on-screen
     perspective: 20px;
     
+    &__navbar {
+        background-color: #fffbf0;
+        justify-content: space-between;
+        padding: 1%;
+        &__item{
+            list-style: none;
+            display: inline;
+            text-decoration: none;
+            padding: 5px 20px;
+            &__hyperlink{
+                font-family: "Helvetica", "Arial", sans-serif;
+                font-size: 1.5rem;
+                text-decoration: none;
+                color: #004369;
+            }
+        }
+    }
+    
     &__header-parallax {
         position: relative;
         display: flex;
@@ -59,7 +77,7 @@ body {
 
         &__title {
             font-size: 3em;
-            font-family: "Helvetica", "Arial", sans-serif;;
+            font-family: "Helvetica", "Arial", sans-serif;
             color: #004369;
             padding: 20px;
             
@@ -67,7 +85,7 @@ body {
 
         &__catchphrase {
             font-size: 2em;
-            font-family: "Helvetica", "Arial", sans-serif;;
+            font-family: "Helvetica", "Arial", sans-serif;
             color: #004369;
             padding: 40px 20px;
         }
@@ -82,7 +100,7 @@ body {
 
         &__section{
             display: grid;
-            grid-template-columns: 1fr ;
+            grid-template-columns: 1fr 1fr;
             grid-template-rows: 1fr 1fr;
             
             &__details {

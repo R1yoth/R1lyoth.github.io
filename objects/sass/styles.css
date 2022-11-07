@@ -9,6 +9,23 @@ body {
   overflow-x: hidden;
   perspective: 20px;
 }
+.firstpage-main__navbar {
+  background-color: #fffbf0;
+  justify-content: space-between;
+  padding: 1%;
+}
+.firstpage-main__navbar__item {
+  list-style: none;
+  display: inline;
+  text-decoration: none;
+  padding: 5px 20px;
+}
+.firstpage-main__navbar__item__hyperlink {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #004369;
+}
 .firstpage-main__header-parallax {
   position: relative;
   display: flex;
@@ -68,7 +85,7 @@ body {
 }
 .firstpage-main__content-highlights__section {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
 }
 .firstpage-main__content-highlights__section__details {
