@@ -79,7 +79,7 @@ body {
 .firstpage-main__content-highlights {
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 900px;
   vertical-align: text-bottom;
   background-color: #c0f0f7;
 }
