@@ -10,6 +10,7 @@ body {
   perspective: 20px;
 }
 .firstpage-main__navbar {
+  height: 4em;
   background-color: #fffbf0;
   justify-content: space-between;
   padding: 1%;
@@ -21,6 +22,9 @@ body {
   padding: 5px 20px;
 }
 .firstpage-main__navbar__item__hyperlink {
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
   font-family: "Helvetica", "Arial", sans-serif;
   font-size: 1.5rem;
   text-decoration: none;
@@ -81,9 +85,12 @@ body {
   width: 100%;
   height: 900px;
   vertical-align: text-bottom;
-  background-color: #c0f0f7;
+  background-color: #004369;
+  background-image: linear-gradient(#004369, #c0f0f7);
 }
 .firstpage-main__content-highlights__section {
+  transform: translateX(-100%);
+  transition: transform 0.8s ease;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -91,7 +98,10 @@ body {
 .firstpage-main__content-highlights__section__details {
   padding: 2em;
   font-family: "Helvetica", "Arial", sans-serif;
-  color: #004369;
+  color: #fffbf0;
+}
+.firstpage-main__content-highlights__section__details__text {
+  font-weight: 600;
 }
 .firstpage-main__content-highlights__section__details ul {
   padding: none;
