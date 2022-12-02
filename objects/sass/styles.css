@@ -125,12 +125,6 @@ body {
 .firstpage-main__content-highlights__section__details__Topic {
   padding: 0 0 2em;
 }
-.firstpage-main__content-highlights__section__details__text {
-  font-weight: 600;
-}
-.firstpage-main__content-highlights__section__details__space {
-  height: 5em;
-}
 .firstpage-main__content-highlights__section__details__horiz-frame {
   overflow-x: auto;
   width: 80vw;
