@@ -119,11 +119,14 @@ body {
         padding: 20px;
 
         &__title {
+            text-align: center;
             font-size: 3em;
             font-family: "Helvetica", "Arial", sans-serif;
             color: #004369;
             padding: 20px;
-            
+            //main title effects
+          
+
         }
     }
     //box with text and counter
@@ -140,6 +143,9 @@ body {
             display: grid;
             grid-template-columns: 1fr 1fr;
             grid-template-rows: 1fr 1fr;
+            padding: 2em;
+            border: 0.1em solid #54b3d6;
+            margin: 1em;
             
             &__details {
                 padding: 2em;
@@ -148,7 +154,7 @@ body {
 
                 &__Topic{
                 padding: 0 0 2em;    
-         
+    
                 }
 
                

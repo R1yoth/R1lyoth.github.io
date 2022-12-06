@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <link href="objects/sass/styles.css" rel="stylesheet">
+    <!--<script async src="https://api.countapi.xyz/hit/r1yoth.github.io/ddbd4f82-cecd-48d6-ae0f-513211823faa?callback=websiteVisits"></script>-->
     <meta lang="en">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,6 +12,7 @@
 <body>
     
     <section class="firstpage-main">
+        <!--Navbar with access pages, will be the footer too-->
         <nav class="firstpage-main__navbar">
             <ul>
                 <li class="firstpage-main__navbar__item"><a href="https://github.com/R1yoth" class="firstpage-main__navbar__item__hyperlink">Github</a></li>
@@ -27,29 +29,33 @@
             <!---->
         <section class= "firstpage-main__upper-section">
             <h1 class= "firstpage-main__upper-section__title"><a>R'lyoth's</a> WebPage</h1>
-            
         </section >
 
             <!--main section composing text and cards of projects.(ON REMAKE)-->
             <main class="firstpage-main__content-highlights">
                 <section class="firstpage-main__content-highlights__section" >
+                    <!--the left column, with the descriptions and retractable divs-->
                     <div class="firstpage-main__content-highlights__section__column1">
                         <button class="firstpage-main__content-highlights__section__column1__title" onclick="">Who Am I?</button>
                         <p>I am Mayke Antônio, people know me by many names, one being R'lyoth... i am an aspiring programmer and a student of Analysis and Systems developement in the Federal University of Parana, in the city of Pato Branco. </p>
                         <button class="firstpage-main__content-highlights__section__column1__title" onclick="">What do I do?</button>
-                        <p>I am currently studying Back-end and IOT, in special the usage of REST API for applications along with Javascript, also learning certain elements of design. I also do like to make fictional stories such as novels, roleplay lore, game bases and concepts. yet such things dont stop me from enjoying an active life as well, with swimming, fishing and </p>   
+                        <p>I am currently studying Back-end and IOT, in special the usage of REST API for applications along with Javascript, also learning certain elements of design. I also do like to make fictional stories such as novels, roleplay lore, game bases and concepts. yet such things dont stop me from enjoying an active life as well, with swimming, fishing and such. </p>   
                         <button class="firstpage-main__content-highlights__section__column1__title" onclick="">What are my Services?</button>
-                        <p>I program and create the front end for sites, developing certain devices such as IOT systems with site-based dashboards. </p>
+                        <p>I Develop and create the front end for sites, developing certain devices such as IOT systems with site-based dashboards. </p>
                         <button class="firstpage-main__content-highlights__section__column1__title" onclick="">How to contact me?</button>
+                        <p class="">You can message me by whatsapp, linkedIn and GitHub by accessing the Icons down below: </p>
                     </div>
+                    <!--the right column, with the access API and thanking the visitor for his presence-->
                     <div class="firstpage-main__content-highlights__section__column2">
-
+                        <h1>Welcome, <span id="visits"></span> people have visited this site.</h1>
+                        <p>Thank you for your visit!</p>
                     </div>
-
                 </section>
+                <!--section where the projects will be in (still in progress)-->
                 <section class="firstpage-main__content-highlights__section__horiz-frame">
                 </section>
             </main>
         </section>
+        <script src="scripts/script.js"></script>
     </body>
 </html>
