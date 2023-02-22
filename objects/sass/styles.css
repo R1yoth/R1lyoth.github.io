@@ -10,7 +10,7 @@ body {
   perspective: 20px;
 }
 .firstpage-main__navbar {
-  height: 4em;
+  height: 3em;
   background-color: #fffbf0;
   justify-content: space-between;
   padding: 1%;
@@ -26,7 +26,7 @@ body {
   position: relative;
   display: inline-block;
   font-family: "Helvetica", "Arial", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   text-decoration: none;
   color: #004369;
 }
@@ -74,20 +74,20 @@ body {
 .firstpage-main__header-parallax__background {
   height: 800px;
   width: 120vw;
-  transform: translateZ(-30px) scale(3);
+  transform: translateZ(-40px) scale(4);
   vertical-align: text-top;
   z-index: -1;
 }
 .firstpage-main__header-parallax__midground {
   position: absolute;
-  transform: translateZ(-20px) scale(3);
+  transform: translateZ(-30px) scale(3);
   height: 120vh;
   width: 100vw;
   object-fit: cover;
   z-index: -1;
 }
 .firstpage-main__header-parallax__foreground {
-  transform: translateZ(-10px) scale(2);
+  transform: translateZ(-20px) scale(2);
   position: absolute;
   height: 120vh;
   width: 100vw;
@@ -95,15 +95,24 @@ body {
   z-index: -1;
 }
 .firstpage-main__upper-section {
-  background-color: #fffbf0;
   padding: 20px;
+  transform: translateZ(-10px) scale(2);
+  position: absolute;
+  width: 100vw;
+  top: 10rem;
 }
 .firstpage-main__upper-section__title {
   text-align: center;
-  font-size: 3em;
+  font-size: 6vw;
   font-family: "Helvetica", "Arial", sans-serif;
   color: #004369;
-  padding: 20px;
+  margin-top: 90px;
+}
+.firstpage-main__upper-section__reflection {
+  text-align: center;
+  font-size: 5vw;
+  font-family: "Helvetica", "Arial", sans-serif;
+  color: #004369;
 }
 .firstpage-main__content-highlights {
   position: absolute;
