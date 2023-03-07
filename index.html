@@ -10,36 +10,101 @@
         <title>Mayke's main page</title>
     </head>
     <body>
-        <main class="main">
-            <section class="main__divider">
-                <header class="main__divider__header"><img id="logo" src="">
-                <ul>
-                    <li class="main__divider__header__list__item">MY RESUMEÉ</li>
-                    <li class="main__divider__header__list__item">MY WORKS</li>
-                    <li class="main__divider__header__list">CONTACT ME</li>
+        <section class="main">
+            <header class="main__header">
+                <i class="main__header__icon"></i>
+                <ul class="main__header__icon__list">
+                    <li class="main__header__icon__list__item">MY RESUMÉÉ</li>
+                    <li  class="main__header__icon__list__item">MY WORKS</li>
+                    <li  class="main__header__icon__list__item">CONTACT ME</li>
                 </ul>
-                </header>
-                <section class="main__divider__skillsection">
-                    <div class="main__divider__skillsection__cardblock__card"><span></span><h3>FRONTEND</h3><p>I like being creative and to bring my ideas into life.</p></div>
-                    <div class="main__divider__skillsection__cardblock__card"><span></span><h3>BACKEND</h3><p>I use from various methods to create connections and queries.</p></div>
-                    <div class="main__divider__skillsection__cardblock__card"><span></span><h3>????</h3><p>As the wheel of Learning never stops, New Abilities will be added here soon.</p></div>
-                </section> 
-                <p>Some of those methods and Skills are still being perfected,to know more click on the Resuméé below.</p>
-                    <button><a href="">Download PDF</a></button>
-                <section class="main__divider__worksection">
-                    <div class="main__divider__worksection__cardblock">
+            </header>
+
+            <!--First section of site, appears along with header in the main screen-->
+            <section class="main__whitespace-part1">
+                <div class="main__whitespace-part1__cardskill">
+                    <div class="main__whitespace-part1__cardskill__skill-item" id="skill1">
+                        <i class="main__whitespace-part1__cardskill__skill-item__item-icon"></i>
+                        <h2 class="main__whitespace-part1__cardskill__skill-item__item-title">FRONTEND</h2>
+                        <p class="main__whitespace-part1__cardskill__skill-item__item-text">I like being creative and to put my ideas into life.</p>
+                        <div class="main__whitespace-part1__cardskill__skill-item__item-divider"></div>
+                        <h3 class="main__whitespace-part1__cardskill__skill-item__item-subtitle">Tools i use</h3>
+                        <ul class="main__whitespace-part1__cardskill__skill-item__item-list">
+                            <li>PHP</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>SASS</li>
+                            <li>JavaScript</li>
+                            <li>Figma</li>
+                            <li>CodePen</li>
+                        </ul>
                     </div>
-                </section>
-                <footer class="main__divider__footer">
-                    <ul>
-                        <li><a>LinkedIn</a></li>
-                        <li><a><i class=""></i></a></li>
-                        <li><a><i class="bi bi-github"></i></a></li>
-                        <li><a>Gmail</a></li>
-                    </ul>
-                    <p></p>
-                </footer>
+                    
+                    <div class="main__whitespace-part1__cardskill__skill-item" id="skill2">
+                        <i class="main__whitespace-part1__cardskill__skill-item__item-icon"></i>
+                        <h2 class="main__whitespace-part1__cardskill__skill-item__item-title">BACKEND</h2>
+                        <p class="main__whitespace-part1__cardskill__skill-item__item-text">I use from various tools to create connections and queries.</p>
+                        <div class="main__whitespace-part1__cardskill__skill-item__item-divider"></div>
+                        <h3 class="main__whitespace-part1__cardskill__skill-item__item-subtitle">Tools i use</h3>
+                        <ul class="main__whitespace-part1__cardskill__skill-item__item-list">
+                                <li>JavaScript</li>
+                                <li>Ajax</li>                                    <li>Node.Js</li>
+                                <li>Jquery</li>
+                            </ul>
+                    </div>
+                   
+                    <div class="main__whitespace-part1__cardskill__skill-item" id="skill3">
+                        <i class="main__whitespace-part1__cardskill__skill-item__item-icon"></i>
+                        <h2 class="main__whitespace-part1__cardskill__skill-item__item-title">?????</h2>
+                        <p class="main__whitespace-part1__cardskill__skill-item__item-text">As the Wheel of knowledge never stops, new abilities, skills and tools will be added here soon.</p>
+                        <div class="main__whitespace-part1__cardskill__skill-item__item-divider"></div>
+                        <h3 class="main__whitespace-part1__cardskill__skill-item__item-subtitle">How do i Learn?</h3>
+                        <ul>                                    <li>Determination</li>
+                            <li>Opportunities</li>
+                            <li>Courses</li>
+                            <li>Practices</li>
+                            <li>Tutorials</li>
+                        </ul>                        </div>
+                    </div>
+                </div>
+                <div class="main__bluespace-part1">
+                    <p class="main__bluespace-part1__Resumee-text">lorem ipsum dolor sit amet, consectetur adipisicing elit, sed diam nonumy eirmod tempor.</p>
+                    <button class="main__bluespace-part1__Resumee-download">Download Resuméé</button>
+                </div>
             </section>
-        </main>
+
+              <!--Second section of site, appears over the footer once user rolls down-->
+            <section class="main__whitespace-part2">
+                <div class="main__whitespace-part2__cardworks">
+                    <div class="main__whitespace-part1__cardworks__work-item" id="work1">
+                        <h2 class="main__whitespace-part1__cardskill__work-item__item-title">Currency converter page</h2>
+                        <div class="main__whitespace-part1__cardskill__work-item__item-divider"></div>
+                        <p class="main__whitespace-part1__cardskill__work-item__item-text">A Javascript-based currency converter, uses javascript API to convert currency. its in production.</p>
+                        <button class="main__whitespace-part1__cardskill__work-item__item-code">code</button><button class="main__whitespace-part1__cardskill__work-item__item-view">view</button>
+                    </div>
+                </div>
+                <div class="main__whitespace-part2__cardworks">
+                    <div class="main__whitespace-part1__cardworks__work-item" id="work2">
+                        <h2 class="main__whitespace-part1__cardskill__work-item__item-title">RPG file maker</h2>
+                        <div class="main__whitespace-part1__cardskill__work-item__item-divider"></div>
+                        <p class="main__whitespace-part1__cardskill__work-item__item-text">A Javascript application to make RPG files using calculus, writing and pre-defined parameters. It is in production, coming soon</p>
+                        <button class="main__whitespace-part1__cardskill__work-item__item-code">code</button><button class="main__whitespace-part1__cardskill__work-item__item-view">view</button>
+                    </div>
+                </div>
+                <div class="main__whitespace-part2__cardworks">
+                    <div class="main__whitespace-part1__cardworks__work-item" id="work3">
+                        <h2 class="main__whitespace-part1__cardskill__work-item__item-title">Chatroom</h2>
+                        <div class="main__whitespace-part1__cardskill__work-item__item-divider"></div>
+                        <p class="main__whitespace-part1__cardskill__work-item__item-text">A chatroom that uses jquery and other functions in order to work. Its in production.</p>
+                        <button class="main__whitespace-part1__cardskill__work-item__item-code">code</button><button class="main__whitespace-part1__cardskill__work-item__item-view">view</button>
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <ul>
+                    <li></li><li></li><li></li><li></li>
+                </ul>
+            </footer>
+        </section>
     </body>
 </html>
