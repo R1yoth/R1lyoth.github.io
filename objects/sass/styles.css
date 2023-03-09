@@ -9,7 +9,7 @@ body {
 .main__header {
   display: flex;
   justify-content: flex-end;
-  padding: 0.5em 25vw;
+  padding: 2em 22em;
   background-color: #1E86DF;
   color: #FFFFFF;
   font-family: "Inter", sans-serif;
@@ -23,7 +23,8 @@ body {
 }
 .main__descriptor {
   font-family: "Merriweather", sans-serif;
-  padding: 1em 25vw;
+  padding: 2em 22em;
+  color: #1F2158;
 }
 .main__descriptor__type {
   margin: 0;
@@ -34,18 +35,21 @@ body {
 }
 .main__part1 {
   font-family: "Inter", sans-serif;
+  height: 100%;
 }
 .main__part1__cardskill {
-  height: 48vh;
+  height: 50vh;
   display: flex;
-  padding: 0.5em 25vw;
+  padding: 0.5em 22em;
 }
 .main__part1__cardskill__skill-item {
   width: 20vw;
-  height: 50vh;
+  height: 53vh;
   margin: 0.5vw;
   padding: 0.5vw;
-  background-color: grey;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  color: #1F2158;
   align-items: center;
 }
 .main__part1__cardskill__skill-item__item-title {
@@ -55,10 +59,11 @@ body {
 .main__part1__cardskill__skill-item__item-text {
   text-align: center;
   font-family: "K2D", sans-serif;
+  padding: 0 2em;
 }
 .main__part1__cardskill__skill-item__item-divider {
   width: 100%;
-  border-bottom: solid 1px #000;
+  border-bottom: solid 2px #1F2158;
 }
 .main__part1__cardskill__skill-item__item-subtitle {
   text-align: center;
@@ -66,27 +71,35 @@ body {
 }
 .main__part1__cardskill__skill-item__item-list {
   text-align: center;
-  text-decoration: none;
+  list-style-type: none;
+  margin: none;
 }
 .main__part1__bluespace {
-  padding: 6vh 25vw;
+  padding: 4em 22em;
   background-color: #1E86DF;
 }
 .main__part2 {
   font-family: "Inter", sans-serif;
+  height: 56vh;
 }
 .main__part2__cardworks {
   display: flex;
+  flex-direction: row;
   padding: 0.5em 25vw;
 }
 .main__part2__cardworks__work-item {
   width: 20vw;
   height: 50vh;
+  border-radius: 5px;
   margin: 0.5vw;
   padding: 0.5vw;
-  background-color: grey;
+  background-color: #FFFFFF;
+  color: #1F2158;
   align-items: center;
-  text-decoration: none;
+}
+.main__part2__cardworks__work-item__item-divider {
+  width: 100%;
+  border-bottom: solid 2px #1F2158;
 }
 .main__footer {
   padding: 0.5em 30vw;
