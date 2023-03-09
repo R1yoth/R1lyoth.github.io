@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Inter:wght@300;400&family=K2D:wght@300;400&family=Merriweather:wght@300;400&display=swap");
 body {
   margin: 0;
 }
@@ -19,31 +19,74 @@ body {
 }
 .main__header__list__item {
   display: inline-block;
-  padding: 0.5em 1em;
+  padding: 0.6rem 1rem;
+}
+.main__descriptor {
+  font-family: "Merriweather", sans-serif;
+  padding: 1em 25vw;
+}
+.main__descriptor__type {
+  margin: 0;
+  padding: 0 1em;
+}
+.main__descriptor__type__highlight {
+  font-family: "Audiowide", arial !important;
 }
 .main__part1 {
   font-family: "Inter", sans-serif;
 }
 .main__part1__cardskill {
-  height: 30vh;
-  padding: 0.5em 25vw;
+  height: 48vh;
   display: flex;
+  padding: 0.5em 25vw;
 }
 .main__part1__cardskill__skill-item {
-  width: fit-content;
-  height: 110px;
+  width: 20vw;
+  height: 50vh;
+  margin: 0.5vw;
+  padding: 0.5vw;
+  background-color: grey;
+  align-items: center;
+}
+.main__part1__cardskill__skill-item__item-title {
+  text-align: center;
+  font-family: "K2D", sans-serif;
+}
+.main__part1__cardskill__skill-item__item-text {
+  text-align: center;
+  font-family: "K2D", sans-serif;
+}
+.main__part1__cardskill__skill-item__item-divider {
+  width: 100%;
+  border-bottom: solid 1px #000;
+}
+.main__part1__cardskill__skill-item__item-subtitle {
+  text-align: center;
+  font-family: "K2D", sans-serif;
+}
+.main__part1__cardskill__skill-item__item-list {
+  text-align: center;
+  text-decoration: none;
 }
 .main__part1__bluespace {
-  padding: 0.5em 25vw;
+  padding: 6vh 25vw;
   background-color: #1E86DF;
 }
 .main__part2 {
   font-family: "Inter", sans-serif;
 }
 .main__part2__cardworks {
+  display: flex;
   padding: 0.5em 25vw;
-  display: grid;
-  overflow-x: auto;
+}
+.main__part2__cardworks__work-item {
+  width: 20vw;
+  height: 50vh;
+  margin: 0.5vw;
+  padding: 0.5vw;
+  background-color: grey;
+  align-items: center;
+  text-decoration: none;
 }
 .main__footer {
   padding: 0.5em 30vw;
