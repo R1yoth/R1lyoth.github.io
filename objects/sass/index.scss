@@ -14,128 +14,26 @@ body {
     background-color: #f5f5f5;
 
     &__header {
-        display: flex;
-        justify-content: flex-end;
-        padding: 2em 22em;
-        background-color: #1E86DF;
-        color: #FFFFFF;
-        font-family: 'Inter',sans-serif;
 
-        &__list {
-            text-decoration: none;
-
-            &__item{
-                display: inline-block;
-                padding: 0.6rem 1rem;
-            }
-        }
     }
 
     &__descriptor {
-        font-family:'Merriweather', sans-serif ;
-        padding: 2em 22em;
-        color: #1F2158;
 
-        &__type {
-            margin: 0;
-            padding: 0 1em;
-
-            &__highlight {
-                font-family: 'Audiowide', arial !important;
-            }
-        }
     }
 
-    &__part1 {
-        font-family: 'Inter',sans-serif; 
-        height: 100%;
-       
-        &__cardskill {
-            height: 50vh;
-            display: flex;
-            padding: 0.5em 22em;
+    &__part-1 {
 
-            &__skill-item {
-                width: 20vw;
-                height: 53vh;
-                margin: 0.5vw;
-                padding: 0.5vw;
-                border-radius: 5px;
-                background-color: #FFFFFF;
-                color: #1F2158;
-                align-items: center;
-
-                &__item-title {
-                    text-align: center;
-                    font-family: 'K2D', sans-serif;
-                }
-
-                &__item-text {
-                    text-align: center;
-                    font-family: 'K2D', sans-serif;
-                    padding: 0 2em;
-                }
-
-                &__item-divider {
-                    width: 100%;
-                    border-bottom: solid 2px #1F2158;
-                }
-
-                &__item-subtitle {
-                    text-align: center;
-                    font-family: 'K2D', sans-serif;
-                }
-                
-                &__item-list {
-                    text-align: center;
-                    list-style-type: none;
-                    margin: none;
-                }
-            }
-        }
-
-        &__bluespace {
-            padding: 4em 22em;
-            background-color: #1E86DF;
-        }
     }
-    
-    &__part2 {
-        font-family: 'Inter',sans-serif;
-        height: 56vh;
 
-       &__cardworks {
-            
-            display: flex;
-            flex-direction: row;
-            padding: 0.5em 25vw;
+    &__bluespace {
 
-            &__work-item {
-                width: 20vw;
-                height: 50vh;
-                border-radius: 5px;
-                margin: 0.5vw;
-                padding: 0.5vw;
-                background-color: #FFFFFF;
-                color: #1F2158;
-                align-items: center;
+    }
 
-                &__item-divider {
-                    width: 100%;
-                    border-bottom: solid 2px #1F2158;
-                }
-            }
+    &__part-2 {
+
+    }
+
+    &__footer {
         
-        }
-       
-    } 
-    
-    &__footer{
-        padding: 0.5em 30vw;
-        background-color: #1E86DF;
-        color: #FFFFFF;
-        font-family: 'Inter',sans-serif;
-        display: flex;
-        flex-direction: row;
     }
 }
